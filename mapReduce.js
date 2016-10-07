@@ -107,7 +107,12 @@ function reduce(listToReduce){
         listToReduce[i].count++;
         listToReduce[i++].pop();
     }
+    outputList[i].word=listToReduce[i].word;
+    outputList[i].count=listToReduce[i].count;
   }
+
+
+  return outputList:
 
 }
 
